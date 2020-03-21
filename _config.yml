@@ -17,7 +17,11 @@ defaults: # site defaults - https://jekyllrb.com/docs/configuration/front-matter
       path: ""
     values:
       layout: "default"
+
+url: "https://test.aloks.com.np" # the base hostname & protocol for your site # for jekyll-sitemap
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
