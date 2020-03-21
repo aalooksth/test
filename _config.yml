@@ -1,3 +1,19 @@
 collections:
-  authors: #custom collection
+  authors: #custom collection - everything inside _authors
     output: true #creates individual page
+
+defaults: # site defaults - https://jekyllrb.com/docs/configuration/front-matter-defaults/
+  - scope:
+      path: "" #all files
+      type: "authors" # colloction / _authors folder
+    values:
+      layout: "author" # layout = author auomatically applied
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
