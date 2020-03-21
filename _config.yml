@@ -26,3 +26,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-menus
+  - jekyll-redirect-from
